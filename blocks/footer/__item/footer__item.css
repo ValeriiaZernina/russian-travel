@@ -2,19 +2,19 @@
     margin: 0;
     margin-right: 18px;
     padding: 0;
-}
-
-.footer__link:last-of-type {
+  }
+  
+  .footer__link:last-of-type {
     margin-right: 0;
     margin-bottom: 0;
-}
-
-.footer__item:hover {
+  }
+  
+  .footer__item:hover {
     opacity: 0.8;
   }
-
-@media screen and (max-width: 750px) {
+  
+  @media screen and (max-width: 750px) {
     .footer__item {
-    margin-bottom: 32px;
-}
-}
+      margin-bottom: 32px;
+    }
+  }
