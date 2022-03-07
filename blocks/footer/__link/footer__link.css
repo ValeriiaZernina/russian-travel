@@ -1,6 +1,10 @@
 .footer__link {
-    margin: 0;
-    padding: 0;
-    color: white;
-    text-decoration: none;
-  }
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+}

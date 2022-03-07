@@ -1,0 +1,29 @@
+.cover__background {
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+    max-width: 1184px;
+    min-height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .cover__background {
+      min-height: 640px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .cover__background {
+      min-height: 480px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .cover__background {
+      min-height: 200px;
+    }
+  }

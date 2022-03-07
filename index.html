@@ -4,8 +4,6 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./vendor/fonts/fonts.css">
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>Путешествия по России</title>
 </head>
@@ -17,11 +15,14 @@
 
         <header class="header">
             <img src="./images/header-logo.svg" alt="Логотип" class="header__logo" />
-            <div class="header__links">
-                <a href="#" class="header__lang-link header__lang-link_type">Ru</a>
-
-                <a href="#" class="header__lang-link">En</a>
-            </div>
+            <ul class="header__links">
+                <li>
+                    <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+                </li>
+                <li>
+                    <a href="#" class="header__lang-link">En</a>
+                </li>
+            </ul>
         </header>
 
         <main class="content">
@@ -72,7 +73,7 @@
 
             <!--блок photo-grid-->
 
-            <div class="photo-grid">
+            <section class="photo-grid">
                 <ul class="photo-grid__cards">
                     <li class="photo-grid__card">
                         <img src="./images/photo-grid-train.jpg" class="photo-grid__image" alt="окна поезда">
@@ -111,7 +112,7 @@
                         <img src="./images/photo-grid-ergaki.jpg" class="photo-grid__image" alt="парк Ергаки">
                     </li>
                 </ul>
-            </div>
+            </section>
 
             <!--блок places-->
 
@@ -246,13 +247,14 @@
 
             <!--блок cover-->
 
-            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover">
-                <h2 class="cover__title">До Байкала «на собаках»</h2>
-                <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
-                    на
-                    электричках.</p>
-            </a>
-
+            <section class="cover">
+                <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__background">
+                    <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
+                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
+                        на
+                        электричках.</p>
+                </a>
+            </section>
         </main>
 
         <!--блок footer-->
@@ -276,8 +278,8 @@
                         <a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a>
                     </li>
                 </ul>
-                <p class="footer__copyright">&#169; 2022. Зернина Валерия</p>
             </nav>
+            <p class="footer__copyright">© 2022. Зернина Валерия</p>
         </footer>
     </div>
 </body>
